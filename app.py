@@ -59,7 +59,7 @@ def predict_sentiment(text):
 st.title("Emotion and Sentiment Analysis App")
 st.write("Enter a text review below to get its predicted emotion and sentiment.")
 
-user_input = st.text_area("Enter your Baahubali Movie review here:", "I love this movie, it was fantastic!")
+user_input = st.text_area("Enter your Bahubali Movie review here:", "I love this movie, it was fantastic!")
 
 if st.button("Analyze Sentiment"):
     if user_input:
